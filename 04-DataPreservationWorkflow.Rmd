@@ -1,0 +1,97 @@
+# Preservation Workflow for Platform Data
+
+
+Date Created: January 3, 2021
+
+## Introduction
+
+Workflow for preserving data in a digital project with the aim of preserving the data for the project as an archive that:
+-	preserves the dataset and results of the project;
+-	contains all necessary materials to redeploy or recreate the project;
+-	allows replication/confirmation of the results of analysis done within the project.
+
+## Workflow Diagram
+-	Create a Datamap: outline the data structure for the entire data archive for the project
+  -	List each subset of data with their main components
+  -	Original Data
+    -	Original data for project 
+    -	Source material
+    -	All open source file types, if possible, or at least very common ones
+    -	Code written for data extraction/cleaning/structuring, if used
+
+-	Platform Data
+  -	Dataset as structured for ingest into a platform itself and/or resources that appear in the site (maps, word clouds, charts, etc.)(excel sheets, .csv, etc.)
+  -	Surrogates for dynamic/visual resources
+  -	Code for custom tools/viz built into the site 
+
+-	Site Files
+  -	Server files 
+  -	Database files
+  -	(if applicable) static HTML pages from the finished project
+-	Documentation
+  -	Documentation for dataset curation process
+  -	Documentation for building site and other web resources
+  -	Documentation for analytical tools 
+
+-	Design a Data lifecycle management plan
+  -	Consult with Research Data Librarian about repositories requirements
+  -	How long will data be stored? 
+  -	What maintenance will be required to keep data usable over time?
+  -	Where will the dataset be hosted? (recommend institutional repositories)
+  -	Who will it be accessible to? 
+  -	Plan for rights for different parts of the dataset
+
+
+## Detailed Instructions
+
+-	Creating a Datamap: outline of the data structure for the entire data archive for the project
+  -	List each subset of data (original data, platform data, site files, dynamic/visual surrogates, and documentation) with main components
+  -	Original Data
+-	Original data for project (best case: in tabular form, with metadata, including a list of all source materials with their metadata)
+-	Source material- copies of annotated documents, etc., used for data extraction (if sources have been OCR’d, annotated or marked up in TEI, transcriptions of sound/video recordings in addition to the media files, etc.)
+-	All open source file types, if possible, or at least very common ones
+-	Code written for data extraction/cleaning/structuring, if used
+
+-	Platform Data
+  -	Dataset as structured for ingest into a platform itself and/or resources that appear in the site (maps, word clouds, charts, etc.)(excel sheets, .csv, etc.)
+  -	Likely comprises a set of versions from ingests taking place over life of project- could include as versions, or best case as one set for the final ‘complete’ project
+-	Data downloaded and/or exported from platform
+-	Includes (best scenario) a tabular export of all data with metadata in the site; minimum, a list of all downloaded assets with basic information (date, size, description)
+-	Multiple file formats (including likely some proprietary forms depending on the platform)
+-	Depending on the platform (like ArcGIS), not everything can be downloaded directly. Feature layers can be opened in ArcGIS pro and then saved as part of a project file, but will still be in a proprietary format. 
+-	Surrogates for dynamic/visual resources
+-	Videos of dynamic resources, stills of maps and other visualizations as image files and/or pdfs, etc.
+-	Code for custom tools/viz built into the site 
+
+-	Site Files
+  -	Server files (checking for hotlinked resources)
+  -	Database files
+  -	(if gets to this stage) static HTML pages from the finished project
+-	Documentation
+  -	Documentation for dataset curation process, including transcription guidelines (if applicable)
+  -	Documentation for building site (including data ingest) and other web resources
+  -	Documentation for analytical tools (tools and settings used, etc.)
+
+-	Design a Data lifecycle management plan
+  -	As early as possible, consult with Research Data Librarian about repositories requirements (file types, other recommendations)
+  -	How long will data be stored? What maintenance will be required to keep data usable over time?
+-	Where will the dataset be hosted? (recommend institutional repositories)
+  -	Who will it be accessible to? Depending on the repository, embargos may be possible
+  -	Plan for rights for different parts of the dataset
+
+## Additional Notes/Guidelines
+
+Opportunities for automation in this process?
+  -	File conversion (from excel to .csv, word to .txt or pdf, etc.)
+  -	Generating list of files/file sizes of archives
+
+
+## References
+-	The Endings project https://endings.uvic.ca/about.html 
+-	Visualizing Objects, Places, and Spaces: A Digital Project Handbook
+
+
+Example:
+Urban Green workflow demo: https://docs.google.com/spreadsheets/d/1D-749mVv6bR2DynD57xJmg3bHIftYddiPnreBxKYTH8/edit?usp=sharing 
+
+

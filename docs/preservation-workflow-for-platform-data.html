@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)</title>
-  <meta name="description" content="Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
+  <title>Chapter 7 Preservation Workflow for Platform Data | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)</title>
+  <meta name="description" content="Chapter 7 Preservation Workflow for Platform Data | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
   <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
+  <meta property="og:title" content="Chapter 7 Preservation Workflow for Platform Data | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
+  <meta name="twitter:title" content="Chapter 7 Preservation Workflow for Platform Data | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="our-team.html"/>
+<link rel="prev" href="workflow-creating-and-maintaining-a-catalog-of-data-assets.html"/>
+<link rel="next" href="organizing-information-and-data-for-interdisciplinary-projects.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -167,20 +167,109 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)</h1>
-<p class="date"><em>2023-05-23</em></p>
+<div id="preservation-workflow-for-platform-data" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Preservation Workflow for Platform Data<a href="preservation-workflow-for-platform-data.html#preservation-workflow-for-platform-data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Date Created: January 3, 2021</p>
+<div id="introduction-1" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Introduction<a href="preservation-workflow-for-platform-data.html#introduction-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Workflow for preserving data in a digital project with the aim of preserving the data for the project as an archive that:
+- preserves the dataset and results of the project;
+- contains all necessary materials to redeploy or recreate the project;
+- allows replication/confirmation of the results of analysis done within the project.</p>
 </div>
-<div id="about" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Chapter 1</span> About<a href="index.html#about" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="workflow-diagram-1" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Workflow Diagram<a href="preservation-workflow-for-platform-data.html#workflow-diagram-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p>Create a Datamap: outline the data structure for the entire data archive for the project</p></li>
+<li><p>List each subset of data with their main components</p></li>
+<li><p>Original Data</p>
+<ul>
+<li>Original data for project</li>
+<li>Source material</li>
+<li>All open source file types, if possible, or at least very common ones</li>
+<li>Code written for data extraction/cleaning/structuring, if used</li>
+</ul></li>
+<li><p>Platform Data</p></li>
+<li><p>Dataset as structured for ingest into a platform itself and/or resources that appear in the site (maps, word clouds, charts, etc.)(excel sheets, .csv, etc.)</p></li>
+<li><p>Surrogates for dynamic/visual resources</p></li>
+<li><p>Code for custom tools/viz built into the site</p></li>
+<li><p>Site Files</p></li>
+<li><p>Server files</p></li>
+<li><p>Database files</p></li>
+<li><p>(if applicable) static HTML pages from the finished project</p></li>
+<li><p>Documentation</p></li>
+<li><p>Documentation for dataset curation process</p></li>
+<li><p>Documentation for building site and other web resources</p></li>
+<li><p>Documentation for analytical tools</p></li>
+<li><p>Design a Data lifecycle management plan</p></li>
+<li><p>Consult with Research Data Librarian about repositories requirements</p></li>
+<li><p>How long will data be stored?</p></li>
+<li><p>What maintenance will be required to keep data usable over time?</p></li>
+<li><p>Where will the dataset be hosted? (recommend institutional repositories)</p></li>
+<li><p>Who will it be accessible to?</p></li>
+<li><p>Plan for rights for different parts of the dataset</p></li>
+</ul>
+</div>
+<div id="detailed-instructions" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> Detailed Instructions<a href="preservation-workflow-for-platform-data.html#detailed-instructions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p>Creating a Datamap: outline of the data structure for the entire data archive for the project</p></li>
+<li><p>List each subset of data (original data, platform data, site files, dynamic/visual surrogates, and documentation) with main components</p></li>
+<li><p>Original Data</p></li>
+<li><p>Original data for project (best case: in tabular form, with metadata, including a list of all source materials with their metadata)</p></li>
+<li><p>Source material- copies of annotated documents, etc., used for data extraction (if sources have been OCR’d, annotated or marked up in TEI, transcriptions of sound/video recordings in addition to the media files, etc.)</p></li>
+<li><p>All open source file types, if possible, or at least very common ones</p></li>
+<li><p>Code written for data extraction/cleaning/structuring, if used</p></li>
+<li><p>Platform Data</p></li>
+<li><p>Dataset as structured for ingest into a platform itself and/or resources that appear in the site (maps, word clouds, charts, etc.)(excel sheets, .csv, etc.)</p></li>
+<li><p>Likely comprises a set of versions from ingests taking place over life of project- could include as versions, or best case as one set for the final ‘complete’ project</p></li>
+<li><p>Data downloaded and/or exported from platform</p></li>
+<li><p>Includes (best scenario) a tabular export of all data with metadata in the site; minimum, a list of all downloaded assets with basic information (date, size, description)</p></li>
+<li><p>Multiple file formats (including likely some proprietary forms depending on the platform)</p></li>
+<li><p>Depending on the platform (like ArcGIS), not everything can be downloaded directly. Feature layers can be opened in ArcGIS pro and then saved as part of a project file, but will still be in a proprietary format.</p></li>
+<li><p>Surrogates for dynamic/visual resources</p></li>
+<li><p>Videos of dynamic resources, stills of maps and other visualizations as image files and/or pdfs, etc.</p></li>
+<li><p>Code for custom tools/viz built into the site</p></li>
+<li><p>Site Files</p></li>
+<li><p>Server files (checking for hotlinked resources)</p></li>
+<li><p>Database files</p></li>
+<li><p>(if gets to this stage) static HTML pages from the finished project</p></li>
+<li><p>Documentation</p></li>
+<li><p>Documentation for dataset curation process, including transcription guidelines (if applicable)</p></li>
+<li><p>Documentation for building site (including data ingest) and other web resources</p></li>
+<li><p>Documentation for analytical tools (tools and settings used, etc.)</p></li>
+<li><p>Design a Data lifecycle management plan</p></li>
+<li><p>As early as possible, consult with Research Data Librarian about repositories requirements (file types, other recommendations)</p></li>
+<li><p>How long will data be stored? What maintenance will be required to keep data usable over time?</p></li>
+<li><p>Where will the dataset be hosted? (recommend institutional repositories)</p></li>
+<li><p>Who will it be accessible to? Depending on the repository, embargos may be possible</p></li>
+<li><p>Plan for rights for different parts of the dataset</p></li>
+</ul>
+</div>
+<div id="additional-notesguidelines" class="section level2 hasAnchor" number="7.4">
+<h2><span class="header-section-number">7.4</span> Additional Notes/Guidelines<a href="preservation-workflow-for-platform-data.html#additional-notesguidelines" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Opportunities for automation in this process?
+- File conversion (from excel to .csv, word to .txt or pdf, etc.)
+- Generating list of files/file sizes of archives</p>
+</div>
+<div id="references" class="section level2 hasAnchor" number="7.5">
+<h2><span class="header-section-number">7.5</span> References<a href="preservation-workflow-for-platform-data.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>The Endings project <a href="https://endings.uvic.ca/about.html" class="uri">https://endings.uvic.ca/about.html</a></li>
+<li>Visualizing Objects, Places, and Spaces: A Digital Project Handbook</li>
+</ul>
+<p>Example:
+Urban Green workflow demo: <a href="https://docs.google.com/spreadsheets/d/1D-749mVv6bR2DynD57xJmg3bHIftYddiPnreBxKYTH8/edit?usp=sharing" class="uri">https://docs.google.com/spreadsheets/d/1D-749mVv6bR2DynD57xJmg3bHIftYddiPnreBxKYTH8/edit?usp=sharing</a></p>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="our-team.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="workflow-creating-and-maintaining-a-catalog-of-data-assets.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="organizing-information-and-data-for-interdisciplinary-projects.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -211,7 +300,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/inkouper/ihcr-data-curation/edit/main/index.Rmd",
+"link": "https://github.com/inkouper/ihcr-data-curation/edit/main/04-DataPreservationWorkflow.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -219,7 +308,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/inkouper/ihcr-data-curation/blob/main/index.Rmd",
+"link": "https://github.com/inkouper/ihcr-data-curation/blob/main/04-DataPreservationWorkflow.Rmd",
 "text": null
 },
 "download": null,

@@ -1,9 +1,13 @@
---- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+---
+title: "Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Down the rabbit-hole
+# About
 
+# Our Team
+
+# Practical recommendations and workflows
+
+# Other outputs

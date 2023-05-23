@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)</title>
-  <meta name="description" content="Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
+  <title>Chapter 8 Organizing Information and Data for Interdisciplinary Projects | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)</title>
+  <meta name="description" content="Chapter 8 Organizing Information and Data for Interdisciplinary Projects | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
   <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
+  <meta property="og:title" content="Chapter 8 Organizing Information and Data for Interdisciplinary Projects | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
+  <meta name="twitter:title" content="Chapter 8 Organizing Information and Data for Interdisciplinary Projects | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="our-team.html"/>
+<link rel="prev" href="preservation-workflow-for-platform-data.html"/>
+<link rel="next" href="implementing-a-charter-for-interdisciplinary-and-collaborative-research-projects.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -167,20 +167,139 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)</h1>
-<p class="date"><em>2023-05-23</em></p>
+<div id="organizing-information-and-data-for-interdisciplinary-projects" class="section level1 hasAnchor" number="8">
+<h1><span class="header-section-number">Chapter 8</span> Organizing Information and Data for Interdisciplinary Projects<a href="organizing-information-and-data-for-interdisciplinary-projects.html#organizing-information-and-data-for-interdisciplinary-projects" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="introduction-2" class="section level2 hasAnchor" number="8.1">
+<h2><span class="header-section-number">8.1</span> Introduction<a href="organizing-information-and-data-for-interdisciplinary-projects.html#introduction-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Efficient information storage and organization is integral to interdisciplinary and highly collaborative research (IHCR). Even though working with IHCR data is in many ways similar to working with data that comes from disciplinary projects, there are some important differences:
+* Many IHCR projects are grant-funded, so the need for efficient long-term management of data is more pressing considering that the funding may not be renewed.
+* IHCR projects are characterized by data and methodological heterogeneity, i.e., the data collection and analysis techniques come from various domains that have varying rules and procedures.
+* IHCR projects often use online platforms in addition to traditional scholarship venues (papers, conferences) to disseminate their work.
+* IHCR projects are often “cross-institutional,” which makes storage and organization even more complex.
+Due to their shorter and more heterogeneous nature, IHCR projects require more coordination. A consistent approach to information storage and organization can help reduce the burden of coordination and allow the project to track and update resources as needed.</p>
+The workflow below provides a set of recommended steps for organizing data and information.
+## Workflow Diagram
+<p align="center">
+<img src="./images/InformationStorageWorkflowDiagram.png">
+</p>
 </div>
-<div id="about" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Chapter 1</span> About<a href="index.html#about" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="detailed-description-of-steps" class="section level2 hasAnchor" number="8.2">
+<h2><span class="header-section-number">8.2</span> Detailed Description of Steps<a href="organizing-information-and-data-for-interdisciplinary-projects.html#detailed-description-of-steps" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="set-goals" class="section level3 hasAnchor" number="8.2.1">
+<h3><span class="header-section-number">8.2.1</span> 1. Set goals<a href="organizing-information-and-data-for-interdisciplinary-projects.html#set-goals" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The goals of data and information organization (which in most practical cases is synonymous with file organization) need to be aligned with the goals of the project. For research projects, the goals usually include collecting and analyzing data and delivering results in the form of papers and presentations. For IHCR projects, the goals also need to address their heterogeneous nature. In addition to the project goals, goal-setting for file organization includes understanding who will be using the file system.</p>
+</div>
+<div id="determine-storage-needs" class="section level3 hasAnchor" number="8.2.2">
+<h3><span class="header-section-number">8.2.2</span> 2. Determine storage needs<a href="organizing-information-and-data-for-interdisciplinary-projects.html#determine-storage-needs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Determining storage needs includes determining the amount of storage that will be needed for the project, modes and rules of access, existing storage options, and the alignment between storage and computation.
+To determine project storage needs, consider the following:
+* With whom the data will be shared regularly (e.g., collaborators at your institution, external collaborators)?
+* What is the classification of your data (e.g., public, sensitive, confidential/restricted, HIPAA-compliant)? Many universities have classifications of their institutional data, which can be used as a guideline.
+* What are your data safety procedures? (e.g., number of backup copies, backup locations, frequency of snapshots).
+* How much data do you have and how fast will it grow? (e.g., under 1TB/year, over 1TB/year).
+* Do you have special performance needs? (e.g., thousands of files, frequent transfer, large computational needs).
+* How are you expecting to access the data? (e.g., from own computer, remotely from any computer).
+* Who is responsible for the data storage and its maintenance? (e.g., yourself, another team member, your institution).
+* What is your budget for data storage and management and where does it come from? (e.g., no budget, fixed amount from grant, ongoing support from institution).</p>
+</div>
+<div id="evaluate-options-and-select-the-appropriate-storage" class="section level3 hasAnchor" number="8.2.3">
+<h3><span class="header-section-number">8.2.3</span> 3. Evaluate options and select the appropriate storage<a href="organizing-information-and-data-for-interdisciplinary-projects.html#evaluate-options-and-select-the-appropriate-storage" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To evaluate storage options, the team may want to consult with institutional IT, the library, or a dedicated data management group at their respective institutions.</p>
+</div>
+<div id="organize-files-into-folders-and-sub-folders" class="section level3 hasAnchor" number="8.2.4">
+<h3><span class="header-section-number">8.2.4</span> 4. Organize files into folders and sub-folders<a href="organizing-information-and-data-for-interdisciplinary-projects.html#organize-files-into-folders-and-sub-folders" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Folder names and structure are highly dependent on the nature of the project. No files should be stored outside of folders, and each file is related to a category within an area. Start with a minimal hierarchy and add complexity only when certain that it will simplify daily work.</p>
+<p>Below is a suggested structure that can be adapted to many research projects:</p>
+<ul>
+<li>Administration
+<ul>
+<li>Hiring</li>
+<li>Finances</li>
+<li>..</li>
+</ul></li>
+<li>Grant materials
+<ul>
+<li>Proposal</li>
+<li>Reports</li>
+<li>..<br />
+</li>
+</ul></li>
+<li>Instruments
+<ul>
+<li>Questionnaires</li>
+<li>..</li>
+</ul></li>
+<li>Data
+<ul>
+<li>Collected</li>
+<li>Processed</li>
+<li>Analysis</li>
+<li>Publications and presentations</li>
+<li>Archive</li>
+</ul></li>
+</ul>
+</div>
+<div id="establish-a-file-naming-convention" class="section level3 hasAnchor" number="8.2.5">
+<h3><span class="header-section-number">8.2.5</span> 5. Establish a file naming convention<a href="organizing-information-and-data-for-interdisciplinary-projects.html#establish-a-file-naming-convention" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Define your file naming convention based on aspects that are important to the project. Use descriptive names that include a) a date, b) experiment conditions, c) location, d) researcher name/initials, e) version number.</p>
+<p>Decide whether to use underscore (_), hyphen (-), or camelCase consistently in file names between the aspects chosen.</p>
+<p>Include dates in the YYYYMMDD or YYYY-MM-DD format at the beginning of the name to keep files in chronological order
+date_content</p>
+</div>
+<div id="consider-using-tags-and-controlled-vocabularies" class="section level3 hasAnchor" number="8.2.6">
+<h3><span class="header-section-number">8.2.6</span> 6. Consider using tags and controlled vocabularies<a href="organizing-information-and-data-for-interdisciplinary-projects.html#consider-using-tags-and-controlled-vocabularies" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>File names may be more useful if standardized information is added to them. For example, the filenames may include designations for sharing status, readiness, and so on.</p>
+<ul>
+<li>Data: [raw] [processed] [reshaped] [cleaned]</li>
+<li>Sharing: [noshare] [shared] [public]</li>
+<li>Readiness: [first draft] [revision] [final]</li>
+<li>Funding: [submitted] [rejected] [awarded]</li>
+</ul>
+</div>
+<div id="establish-a-system-for-version-control" class="section level3 hasAnchor" number="8.2.7">
+<h3><span class="header-section-number">8.2.7</span> 7. Establish a system for version control<a href="organizing-information-and-data-for-interdisciplinary-projects.html#establish-a-system-for-version-control" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Most commonly used method includes a combination of date, sequential numbering and researcher initials for version tracking. This method is prone to errors and requires a lot of effort in tagging / renaming each file.</p>
+<p>A better way for version control is to use the established version control systems such as Git, CVS, or SVN, however, they require investments in learning, training, and adoption.</p>
+</div>
+<div id="define-access-permissions" class="section level3 hasAnchor" number="8.2.8">
+<h3><span class="header-section-number">8.2.8</span> 8. Define access permissions<a href="organizing-information-and-data-for-interdisciplinary-projects.html#define-access-permissions" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Determine who on the team should be able to access and/or edit which files. Implement access controls as needed to ensure file integrity and/or comply with requirements for data that has been classified as sensitive, confidential, HIPAA-protected, etc.</p>
+</div>
+<div id="solicit-input-from-team-members" class="section level3 hasAnchor" number="8.2.9">
+<h3><span class="header-section-number">8.2.9</span> 9. Solicit input from team members<a href="organizing-information-and-data-for-interdisciplinary-projects.html#solicit-input-from-team-members" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Once the system has been in place for a reasonable amount of time, reach out to the team members and solicit their input on the following:
+* What works well in the current system?
+* What is not working with the current system?
+* What is missing from the current system?
+* Discuss and review the feedback and determine what changes can improve the system without adding too much burden to maintenance and implementation.</p>
+</div>
+<div id="maintain-the-system" class="section level3 hasAnchor" number="8.2.10">
+<h3><span class="header-section-number">8.2.10</span> 10. Maintain the system<a href="organizing-information-and-data-for-interdisciplinary-projects.html#maintain-the-system" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Schedule recurring maintenance time to review filing practices and move misplaced files.
+Review the existing files and folders and delete or archive what is not needed.
+Designate someone on your team as the go-to person for all file-organizing questions.
+Check in with your team periodically to see whether your organization system is working and adjust as necessary.</p>
+</div>
+</div>
+<div id="resources-and-examples" class="section level2 hasAnchor" number="8.3">
+<h2><span class="header-section-number">8.3</span> Resources and Examples<a href="organizing-information-and-data-for-interdisciplinary-projects.html#resources-and-examples" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Illinois Library File Naming Conventions <a href="https://guides.library.illinois.edu/introdata/filenames" class="uri">https://guides.library.illinois.edu/introdata/filenames</a></p>
+<p>How to Design File Management for a Company <a href="https://karl-voit.at/2021/01/11/company-file-management/" class="uri">https://karl-voit.at/2021/01/11/company-file-management/</a></p>
+<p>Gentzkow, M. &amp; Shapiro, J. M. (2014). Code and Data for the Social Sciences: A Practitioner’s Guide. <a href="https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf" class="uri">https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf</a></p>
+<p>Data Storage Finder at Cornell University <a href="https://finder.research.cornell.edu/" class="uri">https://finder.research.cornell.edu/</a></p>
+<p>Store, share, and collaborate on institutional files at IU <a href="https://kb.iu.edu/d/bgeo" class="uri">https://kb.iu.edu/d/bgeo</a></p>
+<p>File Transfer, Storage, and Infrastructure at University of Colorado Boulder <a href="https://oit.colorado.edu/services/file-transfer-storage-infrastructure" class="uri">https://oit.colorado.edu/services/file-transfer-storage-infrastructure</a></p>
+<p>File naming apps: Bulk Rename Utility (Windows), Renamer (Mac), PSRenamer</p>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="our-team.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="preservation-workflow-for-platform-data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="implementing-a-charter-for-interdisciplinary-and-collaborative-research-projects.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -211,7 +330,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/inkouper/ihcr-data-curation/edit/main/index.Rmd",
+"link": "https://github.com/inkouper/ihcr-data-curation/edit/main/05-InformationOrganization.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -219,7 +338,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/inkouper/ihcr-data-curation/blob/main/index.Rmd",
+"link": "https://github.com/inkouper/ihcr-data-curation/blob/main/05-InformationOrganization.Rmd",
 "text": null
 },
 "download": null,

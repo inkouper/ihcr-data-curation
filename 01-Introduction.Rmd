@@ -1,4 +1,0 @@
-# Extending data curation to interdisciplinary and highly collaborative research
-Interdisciplinary and highly collaborative research (IHCR), defined as research that integrates resources and expertise across disciplines and insitutional settings, addresses complex problems and seeks solutions to societal challenges. Such research, however, places higher demands on communication, learning, and trust, all of which can have implications for how the data is collected, managed, and preserved.
-
-In this repository we collect workflows and recommendations that can help IHCR teams to improve their data management.

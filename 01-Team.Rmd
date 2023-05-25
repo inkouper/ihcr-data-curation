@@ -1,0 +1,22 @@
+# Team
+
+Our project team combines technical, social science, and professional expertise.
+
+**Inna Kouper, Indiana University:** Project director, PhD in information science and sociology. Expertise in qualitative and quantitative research, curation of diverse datasets and collaborations in interdisciplinary teams.
+
+**Theresa Quill, Indiana University Libraries:** Spatial data and digital humanities expert. Experience with interdisciplinary outreach and consulting on spatial data usage and creation to users with varying levels of experience.
+
+**Esen Tuna, Indiana University:** Research data services manager and technical advisor. Expertise in scalable and mission critical data services architecture, development and management. Experience in research data workflows and management, and in externally funded collaborative large-scale software development projects.
+
+**Dimitar Nikolov, Indiana University:** Expertise in software engineering and testing, workflow development, requirements analysis, communication skills and teamwork.
+
+**Katie Chapman, Indiana University:** Expertise in front end engineering and testing, workflow development, requirements analysis, communication skills and teamwork, PhD in Musicology.
+
+**Thea Lindquist, University of Colorado Boulder:** Expertise in interdisciplinary project management, PhD in history. Experience leading a campus research center at CU Boulder that integrates and promotes research data management and curation, digital scholarship, and scholarly communication.
+
+**Andrew Johnson, University of Colorado Boulder Libraries:** Expertise in research data management and curation, including active curation of research data and consultations with researchers from a wide range of academic disciplines.
+
+**Jonathan Petters, Virginia Polytechnic Institute and State University Libraries:** Expertise in research data management, consulting and data curation; research background in computational modeling and comparison of model output to observations.
+
+Each institution also engaged students, Kimberly Cook, Urooj Raja, Truitt Elliott, and Ece Gumusel, and drew widely on the local expertise of data curators and research technologists.
+

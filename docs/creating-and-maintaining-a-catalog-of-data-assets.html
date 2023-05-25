@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Creating and Maintaining a Catalog of Data Assets | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)</title>
+  <meta name="description" content="Chapter 4 Creating and Maintaining a Catalog of Data Assets | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Creating and Maintaining a Catalog of Data Assets | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Creating and Maintaining a Catalog of Data Assets | Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)" />
+  
+  
+  
+
+
+
+<meta name="date" content="2023-05-24" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="Info-org.html"/>
+<link rel="next" href="processing-collected-quantitative-data-for-easy-analysis-input.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">IHCR data curation</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="1" data-path="team.html"><a href="team.html"><i class="fa fa-check"></i><b>1</b> Team</a></li>
+<li class="chapter" data-level="2" data-path="Project-charter.html"><a href="Project-charter.html"><i class="fa fa-check"></i><b>2</b> Implementing a Charter for Interdisciplinary and Collaborative Research Projects</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="Project-charter.html"><a href="Project-charter.html#introduction-1"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="Project-charter.html"><a href="Project-charter.html#workflow-diagram"><i class="fa fa-check"></i><b>2.2</b> Workflow Diagram</a></li>
+<li class="chapter" data-level="2.3" data-path="Project-charter.html"><a href="Project-charter.html#detailed-steps"><i class="fa fa-check"></i><b>2.3</b> Detailed Steps</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="Project-charter.html"><a href="Project-charter.html#brainstorm-and-clarify"><i class="fa fa-check"></i><b>2.3.1</b> Brainstorm and Clarify</a></li>
+<li class="chapter" data-level="2.3.2" data-path="Project-charter.html"><a href="Project-charter.html#work-together"><i class="fa fa-check"></i><b>2.3.2</b> Work Together</a></li>
+<li class="chapter" data-level="2.3.3" data-path="Project-charter.html"><a href="Project-charter.html#manage-data"><i class="fa fa-check"></i><b>2.3.3</b> Manage Data</a></li>
+<li class="chapter" data-level="2.3.4" data-path="Project-charter.html"><a href="Project-charter.html#plan-outputs"><i class="fa fa-check"></i><b>2.3.4</b> Plan Outputs</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="Project-charter.html"><a href="Project-charter.html#charter-template"><i class="fa fa-check"></i><b>2.4</b> Charter Template</a></li>
+<li class="chapter" data-level="2.5" data-path="Project-charter.html"><a href="Project-charter.html#resources-and-examples"><i class="fa fa-check"></i><b>2.5</b> Resources and Examples</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="Info-org.html"><a href="Info-org.html"><i class="fa fa-check"></i><b>3</b> Organizing Information and Data for Interdisciplinary Projects</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="Info-org.html"><a href="Info-org.html#introduction-2"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="Info-org.html"><a href="Info-org.html#workflow-diagram-1"><i class="fa fa-check"></i><b>3.2</b> Workflow Diagram</a></li>
+<li class="chapter" data-level="3.3" data-path="Info-org.html"><a href="Info-org.html#detailed-description-of-steps"><i class="fa fa-check"></i><b>3.3</b> Detailed Description of Steps</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="Info-org.html"><a href="Info-org.html#set-goals"><i class="fa fa-check"></i><b>3.3.1</b> Set goals</a></li>
+<li class="chapter" data-level="3.3.2" data-path="Info-org.html"><a href="Info-org.html#determine-storage-needs"><i class="fa fa-check"></i><b>3.3.2</b> Determine storage needs</a></li>
+<li class="chapter" data-level="3.3.3" data-path="Info-org.html"><a href="Info-org.html#evaluate-options-and-select-the-appropriate-storage"><i class="fa fa-check"></i><b>3.3.3</b> Evaluate options and select the appropriate storage</a></li>
+<li class="chapter" data-level="3.3.4" data-path="Info-org.html"><a href="Info-org.html#organize-files-into-folders-and-sub-folders"><i class="fa fa-check"></i><b>3.3.4</b> Organize files into folders and sub-folders</a></li>
+<li class="chapter" data-level="3.3.5" data-path="Info-org.html"><a href="Info-org.html#establish-a-file-naming-convention"><i class="fa fa-check"></i><b>3.3.5</b> Establish a file naming convention</a></li>
+<li class="chapter" data-level="3.3.6" data-path="Info-org.html"><a href="Info-org.html#consider-using-tags-and-controlled-vocabularies"><i class="fa fa-check"></i><b>3.3.6</b> Consider using tags and controlled vocabularies</a></li>
+<li class="chapter" data-level="3.3.7" data-path="Info-org.html"><a href="Info-org.html#establish-a-system-for-version-control"><i class="fa fa-check"></i><b>3.3.7</b> Establish a system for version control</a></li>
+<li class="chapter" data-level="3.3.8" data-path="Info-org.html"><a href="Info-org.html#define-access-permissions"><i class="fa fa-check"></i><b>3.3.8</b> Define access permissions</a></li>
+<li class="chapter" data-level="3.3.9" data-path="Info-org.html"><a href="Info-org.html#solicit-input-from-team-members"><i class="fa fa-check"></i><b>3.3.9</b> Solicit input from team members</a></li>
+<li class="chapter" data-level="3.3.10" data-path="Info-org.html"><a href="Info-org.html#maintain-the-system"><i class="fa fa-check"></i><b>3.3.10</b> Maintain the system</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="Info-org.html"><a href="Info-org.html#resources-and-examples-1"><i class="fa fa-check"></i><b>3.4</b> Resources and Examples</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html"><i class="fa fa-check"></i><b>4</b> Creating and Maintaining a Catalog of Data Assets</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#introduction-3"><i class="fa fa-check"></i><b>4.1</b> Introduction</a></li>
+<li class="chapter" data-level="4.2" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#workflow-diagram-2"><i class="fa fa-check"></i><b>4.2</b> Workflow Diagram</a></li>
+<li class="chapter" data-level="4.3" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#implementation-steps"><i class="fa fa-check"></i><b>4.3</b> Implementation Steps</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#assign-roles-and-responsibilities"><i class="fa fa-check"></i><b>4.3.1</b> Assign Roles and Responsibilities</a></li>
+<li class="chapter" data-level="4.3.2" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#select-storage"><i class="fa fa-check"></i><b>4.3.2</b> Select Storage</a></li>
+<li class="chapter" data-level="4.3.3" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#establish-metadata-procedures"><i class="fa fa-check"></i><b>4.3.3</b> Establish Metadata Procedures</a></li>
+<li class="chapter" data-level="4.3.4" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#setup-and-create-data-catalog"><i class="fa fa-check"></i><b>4.3.4</b> Setup and Create Data Catalog</a></li>
+<li class="chapter" data-level="4.3.5" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#review-and-update-regularly"><i class="fa fa-check"></i><b>4.3.5</b> Review and Update Regularly</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#appendices-detailed-instructions"><i class="fa fa-check"></i><b>4.4</b> Appendices: Detailed Instructions</a>
+<ul>
+<li class="chapter" data-level="" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#appendix-a.-manual-creation-of-data"><i class="fa fa-check"></i>Appendix A. Manual Creation of Data</a></li>
+<li class="chapter" data-level="" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#appendix-b.-data-catalog-via-automatic-inventory"><i class="fa fa-check"></i>Appendix B. Data Catalog via Automatic Inventory</a></li>
+<li class="chapter" data-level="4.4.1" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#b3.-create-a-data-catalog-in-google-drive-using-a-google-app-script"><i class="fa fa-check"></i><b>4.4.1</b> B3. Create a Data Catalog in Google Drive using a Google App Script</a></li>
+<li class="chapter" data-level="4.4.2" data-path="creating-and-maintaining-a-catalog-of-data-assets.html"><a href="creating-and-maintaining-a-catalog-of-data-assets.html#b4.-create-a-data-catalog-of-files-stored-in-a-shared-linux-file-mounting-system"><i class="fa fa-check"></i><b>4.4.2</b> B4. Create a Data Catalog of Files Stored in a Shared Linux File Mounting System</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="processing-collected-quantitative-data-for-easy-analysis-input.html"><a href="processing-collected-quantitative-data-for-easy-analysis-input.html"><i class="fa fa-check"></i><b>5</b> Processing Collected Quantitative Data for Easy Analysis Input</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="processing-collected-quantitative-data-for-easy-analysis-input.html"><a href="processing-collected-quantitative-data-for-easy-analysis-input.html#introduction-4"><i class="fa fa-check"></i><b>5.1</b> Introduction</a></li>
+<li class="chapter" data-level="5.2" data-path="processing-collected-quantitative-data-for-easy-analysis-input.html"><a href="processing-collected-quantitative-data-for-easy-analysis-input.html#workflow-diagram-3"><i class="fa fa-check"></i><b>5.2</b> Workflow Diagram</a></li>
+<li class="chapter" data-level="5.3" data-path="processing-collected-quantitative-data-for-easy-analysis-input.html"><a href="processing-collected-quantitative-data-for-easy-analysis-input.html#detailed-steps-1"><i class="fa fa-check"></i><b>5.3</b> Detailed Steps</a></li>
+<li class="chapter" data-level="5.4" data-path="processing-collected-quantitative-data-for-easy-analysis-input.html"><a href="processing-collected-quantitative-data-for-easy-analysis-input.html#references"><i class="fa fa-check"></i><b>5.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="preserving-data-from-digital-projects-published-online.html"><a href="preserving-data-from-digital-projects-published-online.html"><i class="fa fa-check"></i><b>6</b> Preserving Data from Digital Projects Published Online</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="preserving-data-from-digital-projects-published-online.html"><a href="preserving-data-from-digital-projects-published-online.html#introduction-5"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="preserving-data-from-digital-projects-published-online.html"><a href="preserving-data-from-digital-projects-published-online.html#workflow-diagram-4"><i class="fa fa-check"></i><b>6.2</b> Workflow Diagram</a></li>
+<li class="chapter" data-level="6.3" data-path="preserving-data-from-digital-projects-published-online.html"><a href="preserving-data-from-digital-projects-published-online.html#detailed-steps-2"><i class="fa fa-check"></i><b>6.3</b> Detailed Steps</a></li>
+<li class="chapter" data-level="6.4" data-path="preserving-data-from-digital-projects-published-online.html"><a href="preserving-data-from-digital-projects-published-online.html#references-1"><i class="fa fa-check"></i><b>6.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="other-outputs.html"><a href="other-outputs.html"><i class="fa fa-check"></i><b>7</b> Other Outputs</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Extending Data Curation to Interdisciplinary and Highly Collaborative Research (IHCR)</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="creating-and-maintaining-a-catalog-of-data-assets" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Creating and Maintaining a Catalog of Data Assets<a href="creating-and-maintaining-a-catalog-of-data-assets.html#creating-and-maintaining-a-catalog-of-data-assets" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="introduction-3" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Introduction<a href="creating-and-maintaining-a-catalog-of-data-assets.html#introduction-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Keeping track of information assets is a significant challenge in projects that conduct interdisciplinary and highly collaborative research (IHCR). In such projects, data and information may be spread across multiple storage systems and institutions; multiple contributors may be responsible for it at various stages of the project lifecycle. Commercial products such as <a href="https://starfishstorage.com/">Starfish</a> provide cataloging and tracking functionality, but such products may be costly and have technical barriers for integration and maintenance.</p>
+<p>The workflow below provides a low-cost way for IHCR teams to create and maintain a catalog of their data assets. When used in combination with the overall project plan to guide teamwork and data management (see <a href="Project-charter.html#Project-charter">Section “Implementing a Charter..”</a>), it will improve consistency and efficiency of IHCR data practices. While this workflow focuses on data, it can also be used for managing digital information assets more broadly.</p>
+</div>
+<div id="workflow-diagram-2" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Workflow Diagram<a href="creating-and-maintaining-a-catalog-of-data-assets.html#workflow-diagram-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="images/datacatalogdiagram.png" /><!-- --></p>
+</div>
+<div id="implementation-steps" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Implementation Steps<a href="creating-and-maintaining-a-catalog-of-data-assets.html#implementation-steps" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="assign-roles-and-responsibilities" class="section level3 hasAnchor" number="4.3.1">
+<h3><span class="header-section-number">4.3.1</span> Assign Roles and Responsibilities<a href="creating-and-maintaining-a-catalog-of-data-assets.html#assign-roles-and-responsibilities" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The first step in tracking data assets is to designate the roles and responsibilities of project participants to decide who will be involved in data collection and management and how. Identify who will serve as the designated data manager and who will assume their responsibilities in the event the data manager is not available. Depending on the number of project participants, the responsibilities of the data manager can be assigned to one or more individuals.</p>
+</div>
+<div id="select-storage" class="section level3 hasAnchor" number="4.3.2">
+<h3><span class="header-section-number">4.3.2</span> Select Storage<a href="creating-and-maintaining-a-catalog-of-data-assets.html#select-storage" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Once the project team is formed, members can review and decide on the data storage location and the directory structure for all project files and data assets. The choice of storage platform will also impact which of the data catalog options are available; solutions offered below are for local file storage, Google Drive, and the Microsoft 365 cloud suite (OneDrive and Sharepoint).</p>
+<p>See also the <a href="Info-org.html#Info-org">Section “Organizing Information..”</a></p>
+</div>
+<div id="establish-metadata-procedures" class="section level3 hasAnchor" number="4.3.3">
+<h3><span class="header-section-number">4.3.3</span> Establish Metadata Procedures<a href="creating-and-maintaining-a-catalog-of-data-assets.html#establish-metadata-procedures" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The data manager (and other members of the team) will need to determine what information about data assets (metadata) is most helpful for data use and reuse. As a general rule, metadata is the <em>who, what, when, where, why, and how</em> of the research data. A basic set of metadata fields is described below in the section “Manual Creation of Data Catalog”, but there will likely be additional fields specific to the project that should be included for the most complete description of each data asset.</p>
+</div>
+<div id="setup-and-create-data-catalog" class="section level3 hasAnchor" number="4.3.4">
+<h3><span class="header-section-number">4.3.4</span> Setup and Create Data Catalog<a href="creating-and-maintaining-a-catalog-of-data-assets.html#setup-and-create-data-catalog" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The data catalog can be set up and created via <strong>manual collection</strong> that uses a data cataloging form, <strong>automated inventory procedures</strong> (see “Appendices” for detailed instructions), or a combination of both methods. If using both the manual and automated collection methods, the data manager will need to reconcile the data catalog with the periodic inventories to maintain a full record of the project’s data assets.
+As part of the catalog setup, all project members need to be assigned access permissions. For example, the catalog should be viewable to any project member, but it should only be edited by the data manager(s) and data cataloger(s).</p>
+<p>As part of the catalog setup, all project members need to be assigned access permissions. For example, the catalog should be viewable to any project member, but it should only be edited by the data manager(s) and data cataloger(s).</p>
+</div>
+<div id="review-and-update-regularly" class="section level3 hasAnchor" number="4.3.5">
+<h3><span class="header-section-number">4.3.5</span> Review and Update Regularly<a href="creating-and-maintaining-a-catalog-of-data-assets.html#review-and-update-regularly" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The data manager should periodically review the data catalog to ensure consistency and check that no information is missing. This includes confirming that file naming conventions are followed, that files are stored in the correct locations, and that there is no unnecessary duplication of files. If additional metadata fields were not added to the catalog by the workflows described in this document, they need to be added to the catalog manually.</p>
+<p>Periodic evaluation and update can be done in two ways: via a manual review of the data catalog or by running the automated inventory described in Appendix B. Reviews should be done at regular intervals to avoid a backlog of work and to catch and rectify potential errors in cataloging as early as possible instead of at the end of a project’s data collection. The reviews should be scheduled in weekly or monthly intervals depending on the pace of the project and its data collection processes.</p>
+</div>
+</div>
+<div id="appendices-detailed-instructions" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Appendices: Detailed Instructions<a href="creating-and-maintaining-a-catalog-of-data-assets.html#appendices-detailed-instructions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="appendix-a.-manual-creation-of-data" class="section level3 unnumbered hasAnchor">
+<h3>Appendix A. Manual Creation of Data<a href="creating-and-maintaining-a-catalog-of-data-assets.html#appendix-a.-manual-creation-of-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The data catalog is a list of all data assets that are described consistently and uniformly using a set of attributes. Some attributes may be set to “optional” if they are not essential to each data asset.</p>
+<p>The catalog can be created and tracked manually via a data cataloging form using Google forms, Microsoft forms, Qualtrics, or any other surveying or spreadsheet software. It can also be created as a template spreadsheet where each attribute is a column and each data asset forms a row.</p>
+<p>The template below lists the suggested minimum information needed to describe each asset; it can be customized to add more metadata fields according to the needs of a project.</p>
+<ol style="list-style-type: decimal">
+<li><strong>Asset ID</strong> (required): Unique asset ID assigned automatically or by the data manager. This field needs to be entered directly into the catalog instead of through the cataloging form.</li>
+<li><strong>Data Collector</strong> (required): Name(s) of individual(s) who collected the data.</li>
+<li><strong>Contributor</strong> (if different from data collector, optional): Name of the individual who created the record.</li>
+<li><strong>Date of Collection</strong> (required): Date(s) data was collected.</li>
+<li><strong>Keyword(s)</strong>: A list of project-specific descriptors that can help in search and organization. These tags can include experiment names, institutions, geographic locations, and so on. At the beginning the tags can be free-form, but later on it is recommended to standardize the tags and create a controlled vocabulary.</li>
+<li><strong>Description</strong> (required): Short description of contents (what is the nature of this data, methods used in collection, any details of importance to the project).</li>
+<li><strong>State</strong> (optional): Current state of the asset (e.g., to be created, created, cleaned, transformed, verified). The states are project-specific and can be determined by the team in advance.</li>
+<li><strong>Storage Location</strong> (optional): Location of the asset being cataloged (e.g., central project location, individual member’s storage, etc.).</li>
+<li><strong>Path</strong> (optional): Where or how to find this asset. Can be a full path (e.g., “C”:My DriveFilename.csv”) or a relative path (e.g., folder “Data files”).</li>
+<li><strong>Notes</strong> (optional): Any notes about the item being cataloged that are useful to include in the catalog.</li>
+</ol>
+</div>
+<div id="appendix-b.-data-catalog-via-automatic-inventory" class="section level3 unnumbered hasAnchor">
+<h3>Appendix B. Data Catalog via Automatic Inventory<a href="creating-and-maintaining-a-catalog-of-data-assets.html#appendix-b.-data-catalog-via-automatic-inventory" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="b1.-use-microsoft-excel-to-create-a-data-catalog-of-a-local-directory-windows-machine-only" class="section level4 unnumbered hasAnchor">
+<h4>B1. Use Microsoft Excel to Create a Data Catalog of a Local Directory (Windows Machine Only)<a href="creating-and-maintaining-a-catalog-of-data-assets.html#b1.-use-microsoft-excel-to-create-a-data-catalog-of-a-local-directory-windows-machine-only" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>The following steps will create a file list of a specified directory (and any subdirectories) stored on a local machine. The file list will include file information metadata and the link to both the individual file and to the folder a file appears in.</p>
+<ol style="list-style-type: decimal">
+<li>Open a new workbook in Excel, then navigate to “Data”-&gt; “Get Data”-&gt; “From File” -&gt;“From Folder”</li>
+</ol>
+<p><img src="images/dc%20img2.png" /><!-- --></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Choose the directory you want to index and click “OK” (older versions of Excel) or “Open” (newer versions). In the new dialogue box that opens, choose “Transform Data”.</li>
+</ol>
+<p><img src="images/dc%20img3.png" /><!-- --></p>
+<ol start="3" style="list-style-type: decimal">
+<li>In the Power Query window that opens, the fields that will be created for each file are listed as columns. To remove a field before running the query, right click the heading title and choose “Remove”.</li>
+</ol>
+<p><img src="images/dc%20img4.png" /><!-- --></p>
+<ol start="4" style="list-style-type: decimal">
+<li>Click the “Close and Load” button at the top left corner on the menu; the data will then populate in the sheet.</li>
+</ol>
+<p><img src="images/dc%20img5.png" /><!-- --></p>
+<ol start="5" style="list-style-type: decimal">
+<li><p>Save the file according to the file naming convention determined by the data manager to save a static copy of the directory’s contents.</p></li>
+<li><p>To have snapshots of the catalog over time, create an inventory periodically and add a date to the file name.</p></li>
+</ol>
+</div>
+<div id="b2.-create-a-data-catalog-of-microsoft-online-document-storage-sharepoint-and-save-it-on-a-local-machine-windows-machine-only" class="section level4 unnumbered hasAnchor">
+<h4>B2. Create a Data Catalog of Microsoft Online Document Storage (SharePoint) and Save It on a Local Machine (Windows Machine Only)<a href="creating-and-maintaining-a-catalog-of-data-assets.html#b2.-create-a-data-catalog-of-microsoft-online-document-storage-sharepoint-and-save-it-on-a-local-machine-windows-machine-only" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Note: This workflow generates a web query file “query.iqy” that cannot be run or opened on a Mac as the internet query connection is not supported by Excel for Mac. As a workaround, you can run this on Excel for Windows, save the file as XLSX and then open it in Excel for Mac. You’ll be able to see the data but you won’t be able to refresh the data connection.</p>
+<ol style="list-style-type: decimal">
+<li>Open SharePoint in a browser and log in as necessary.</li>
+<li>Navigate to the directory that needs to be indexed.</li>
+</ol>
+<p>Note: Organizations may have their SharePoint platforms configured differently. Navigate to “Documents” within the project’s Sharepoint page and then open the directory to be indexed.</p>
+<p><img src="images/dc%20img6.png" /><!-- --></p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Click “Export to Excel”. This will generate and download an Internet Query File called “query.iqy” (the file should download into the default download folder for your browser).</p></li>
+<li><p>Navigate to your download folder and double-click on the ‘query.iqy’ file. Enable a connection to your online SharePoint platform when prompted (see image below).</p></li>
+</ol>
+<p><img src="images/dc%20img7.png" /><!-- --></p>
+<ol start="5" style="list-style-type: decimal">
+<li>The file will be opened as an empty workbook initially. You will be asked to select how the data should be imported. Select “Table” to have the full folder contents listed (selecting “PivotTable Report” or “PivotChart” will aggregate and summarize the data rather than generate full folder contents). Next, under “Where do you want to put the data?”, select the location for the index (in a designated area of the existing worksheet, a new worksheet in the current file, or in a new workbook).</li>
+</ol>
+<p><img src="images/dc%20img8.png" /><!-- --></p>
+<ol start="6" style="list-style-type: decimal">
+<li>The new file will be populated with the following information:</li>
+</ol>
+<ul>
+<li>Name: name of the file or folder with a link to its online version</li>
+<li>Modified: the date when the item was modified</li>
+<li>Modified by: name of the user who modified the item last</li>
+<li>Item type: “item” refers to files, “folder” refers to folders</li>
+<li>Path: the path within folder hierarchy (no link to the online content).</li>
+</ul>
+<ol start="7" style="list-style-type: decimal">
+<li><p>Save the file according to the file naming convention determined by the data manager to save a static copy of the directory’s contents. To run the index again on the same directory, either run the downloaded iquery file again or follow the steps above to download a new iquery file. If you plan to use the same iquery file to index a directory each time, it is recommended that you rename the file with the name of the Sharepoint Site and Directory it indexes.</p></li>
+<li><p>By default, the data catalog generated by this query is arranged alphabetically by name with all folders going first and all items (files) going after all the folders. To view the index by directory, sort the rows alphabetically by the column “Path” (Home -&gt; Sort &amp; Filter - Custom Sort).</p></li>
+</ol>
+<ul>
+<li>To sort further within each folder, use “Custom Sort” and add columns to the sort parameters (e.g., name or modified).</li>
+<li>To view files only (without the folder names in the column “Name”), click on the down arrow to the right of the column “Item Type” to view options for that field, and then deselect “Folder”.</li>
+</ul>
+<p><img src="images/dc%20img9.png" /><!-- --></p>
+<ul>
+<li>To only display items from specific folder(s) for review, click on the down arrow to the right of the Path column, uncheck “Select All”, and then select only the desired folder(s):</li>
+</ul>
+<p><img src="images/dc%20img10.png" /><!-- --></p>
+</div>
+</div>
+<div id="b3.-create-a-data-catalog-in-google-drive-using-a-google-app-script" class="section level3 hasAnchor" number="4.4.1">
+<h3><span class="header-section-number">4.4.1</span> B3. Create a Data Catalog in Google Drive using a Google App Script<a href="creating-and-maintaining-a-catalog-of-data-assets.html#b3.-create-a-data-catalog-in-google-drive-using-a-google-app-script" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The following steps will create a recursive file listing of a specified directory (and any subdirectories) stored in Google Drive with metadata, the file path, and links to both the individual file and to the folder a file appears in.</p>
+<ol style="list-style-type: decimal">
+<li>Create a new google sheet to store the file inventory in your project directory.</li>
+</ol>
+<p><img src="images/dc%20img11.png" /><!-- --></p>
+<ol start="2" style="list-style-type: decimal">
+<li>To add the App Script to the document, go to “Extensions”-&gt; “Apps Script”.</li>
+</ol>
+<p><img src="images/dc%20img12.png" /><!-- --></p>
+<p>In the App Script that opens, remove any content that is there and paste the code block from the end of this section (if needed, the metadata fields to be collected can be changed and/or reordered in the last section of code).</p>
+<p><img src="images/dc%20img13.png" /><!-- --></p>
+<p>Give the script a meaningful name (e.g., “FileList”), then save the project by clicking on the diskette icon at the top. Click “Run”.</p>
+<p>Close the tab with the Apps Script and the tab with the google sheet, then reopen the sheet. You will now see a new menu option named “File List”.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>To run the inventory, click “File List” then choose “Create a file list from folder”. Enter the name of the directory whose contents you want to inventory in the dialogue box that opens.</li>
+</ol>
+<p><img src="images/dc%20img14.png" /><!-- --></p>
+<p>If asked to allow access, choose “Continue” then provide your credentials. (You may need to repeat the previous step after providing authorization).</p>
+<p><img src="images/dc%20img15.png" /><!-- --></p>
+<p>The script will then populate the sheet with a list of files from the specified directory with the metadata specified.
+You can run the script in multiple worksheets within the same GoogleSheet for different directories if needed, or run it for the full directory.</p>
+<pre><code>Code for Apps Script
+         //Function that creates the menu link in the sheet to run the inventory
+         function onOpen() {
+            var ss = SpreadsheetApp.getActiveSpreadsheet();
+            var searchMenuEntries = [{
+                name: &quot;Create a File List from Folder&quot;,
+                functionName: &quot;start&quot;
+            }];
+            ss.addMenu(&quot;File List&quot;, searchMenuEntries);
+         }
+
+        //Function that builds the inventory
+         function start() {
+            var sheet = SpreadsheetApp.getActiveSheet();
+            sheet.clear();
+          //Comment below enable it if you need one sheet
+          //Builds the column headings
+            sheet.appendRow([&quot;Name&quot;, &quot;Folder&quot;, &quot;Type&quot;, &quot;Creation Date&quot;, &quot;Size&quot;, &quot;URL&quot;,&quot;Folder URL&quot;, &quot;Path&quot; ]);
+
+            //Makes the Input Box to specify which folder the inventory will run on
+            var folderName = Browser.inputBox(&quot;Enter the Name of the Directory to be Inventoried (this will overwrite the current spreadsheet):&quot;);
+
+            //Fetches the folders
+            var folder = DriveApp.getFoldersByName(folderName);
+
+
+            if (folder.hasNext()) {
+                processFolder(folder, &#39;&#39;);
+            } else {
+                Browser.msgBox(&#39;Folder not found!&#39;);
+            }
+
+          //Returns the information for each file in the specified folder
+            function processFolder(folder, path) {
+                while (folder.hasNext()) {
+                    var f = folder.next();
+                    var contents = f.getFiles();
+                    var fName = f.getName();
+                    addFilesToSheet(contents, f, path);
+                    var subFolder = f.getFolders();
+                    processFolder(subFolder, path + &#39;/&#39; + fName);
+                }
+            }
+            //Outputs the file inventory
+            function addFilesToSheet(files, folder, path) {     
+                var data;
+                var folderName = folder.getName();
+
+                while (files.hasNext()) {
+                    var file = files.next();
+                    Logger.log(file.getName());
+                    Logger.log(file.getParents());
+
+            //Specifies the fields returned in the inventory
+                    var fileName = file.getName();
+                    sheet.appendRow([
+                      fileName,
+                      folderName,
+                      file.getMimeType(),
+                      file.getDateCreated(),
+                      file.getSize()/1024,
+                      file.getUrl(),
+                      folder.getUrl(),
+                      path + &quot;/&quot; + folderName + &quot;/&quot; + fileName,     
+                    ]);
+                }
+            }
+         }</code></pre>
+</div>
+<div id="b4.-create-a-data-catalog-of-files-stored-in-a-shared-linux-file-mounting-system" class="section level3 hasAnchor" number="4.4.2">
+<h3><span class="header-section-number">4.4.2</span> B4. Create a Data Catalog of Files Stored in a Shared Linux File Mounting System<a href="creating-and-maintaining-a-catalog-of-data-assets.html#b4.-create-a-data-catalog-of-files-stored-in-a-shared-linux-file-mounting-system" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The following steps will create a catalog of files stored in a shared project space in a Linux File Mounting System, such as Lustre, using Terminal.</p>
+<ol style="list-style-type: decimal">
+<li><p>Using Linux terminal, connect to the file system where your project data is stored (for this, you will need to be connected via ssh, not sftp).</p></li>
+<li><p>Navigate to the directory where your data is stored and create a directory named ‘Data Catalog’ to store catalog files.</p></li>
+<li><p>Run the following command, replacing ‘filename’ with the name you want for the Data Catalog and ‘date’ with the current date.</p>
+<p>Find “$PWD” -type f | xargs ls -l &gt; ~/DataCatalog/filename_date.csv</p></li>
+<li><p>This will create a .csv file with a list of each file with its path and its file size and save it in your home directory on the file system in the directory you’ve created named ‘DataCatalog’.</p></li>
+</ol>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="Info-org.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="processing-collected-quantitative-data-for-easy-analysis-input.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/inkouper/ihcr-data-curation/edit/main/04-DataCatalogWorkflow.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/inkouper/ihcr-data-curation/blob/main/04-DataCatalogWorkflow.Rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

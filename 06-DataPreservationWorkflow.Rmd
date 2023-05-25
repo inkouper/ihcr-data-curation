@@ -1,0 +1,19 @@
+# Preserving Data from Digital Projects Published Online
+
+## Introduction
+
+Digital scholarly projects are research projects that are designed, implemented, and disseminated using digital technologies. These projects take many different forms, such as online exhibitions, digital archives, data visualizations, interactive maps, and multimedia publications. Such projects are common in the digital humanities, but researchers in the social and other sciences also rely on digital projects to disseminate their work online.
+
+Digital projects are often interdisciplinary and collaborative as they draw on methods and theories from various fields and involve collaboration between scholars, scientists, librarians, and technologists. Digital scholarly projects enhance the accessibility and discoverability of research and facilitate new modes of analysis and interpretation by enabling researchers to work with large datasets, use sophisticated visualization tools, and incorporate multimedia elements into their analysis.
+
+Preserving data from digital scholarly projects ensures long-term access to the research and knowledge contributions behind those projects. A workflow for preserving the web component of a digital scholarly project can aim to preserve both the content and the user experience of a site or tool, or focus on preserving the content. 
+
+The steps described below focus on the latter approach, i.e., preserving the content, and aim to aid in the migration or recovery of the online component of digital projects. Many of the components described here will be generated in the course of the project itself, such as documentation, lists of contributors, etc.
+
+## Workflow Diagram
+
+## Detailed Steps
+
+## References
+
+

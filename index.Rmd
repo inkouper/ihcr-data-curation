@@ -4,10 +4,12 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# About
+# Introduction {-}
+This online resource provides information and outputs from the project that focused on examining data practices in interdisciplinary and highly collaborative research (IHCR). 
 
-# Our Team
+We defined IHCR broadly as research that integrates resources and expertise across disciplines and professional and institutional settings. A collaboration between three academic institutions in the US, Indiana University Bloomington, Virginia Tech, and University of Colorado Boulder, the project was funded by the Institute of Museum and Library Services (Award #LG-246400-OLS-20).
 
-# Practical recommendations and workflows
+The project’s goals included developing a deeper understanding of IHCR data practices and providing insights into the tools and processes that interdisciplinary researchers employ in their work. Through methods of qualitative research that included interviews, observations, document analysis, and iterative follow-up conversations, we examined the practices of six interdisciplinary teams from three US universities. Using the knowledge derived from studying IHCR practices across various teams, we developed practical recommendations for data curation and how library and research technology units can engage with IHCR teams. These recommendations and the other outputs of the project can be found in the specific sections of this site via the left-hand navigation.
 
-# Other outputs
+Project period of performance: 2020-2023
+

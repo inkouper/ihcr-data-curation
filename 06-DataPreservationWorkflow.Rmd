@@ -2,18 +2,87 @@
 
 ## Introduction
 
-Digital scholarly projects are research projects that are designed, implemented, and disseminated using digital technologies. These projects take many different forms, such as online exhibitions, digital archives, data visualizations, interactive maps, and multimedia publications. Such projects are common in the digital humanities, but researchers in the social and other sciences also rely on digital projects to disseminate their work online.
+Digital projects are research projects that are designed, implemented, and disseminated using digital technologies. These projects take many different forms, such as online exhibitions, digital archives, data visualizations, interactive maps, and multimedia publications. Such projects are common in the digital humanities, but researchers in the social and other sciences also rely on digital projects to disseminate their work online.
 
-Digital projects are often interdisciplinary and collaborative as they draw on methods and theories from various fields and involve collaboration between scholars, scientists, librarians, and technologists. Digital scholarly projects enhance the accessibility and discoverability of research and facilitate new modes of analysis and interpretation by enabling researchers to work with large datasets, use sophisticated visualization tools, and incorporate multimedia elements into their analysis.
+Digital projects are often interdisciplinary and collaborative as they draw on methods and theories from various fields and involve collaboration between scholars, scientists, librarians, and technologists. Preserving data from digital scholarly projects ensures long-term access to the research and knowledge contributions behind those projects. A workflow for preserving the web component of a digital scholarly project can aim to preserve both the content and the user experience of a site or tool, or focus on preserving the content.
 
-Preserving data from digital scholarly projects ensures long-term access to the research and knowledge contributions behind those projects. A workflow for preserving the web component of a digital scholarly project can aim to preserve both the content and the user experience of a site or tool, or focus on preserving the content. 
-
-The steps described below focus on the latter approach, i.e., preserving the content, and aim to aid in the migration or recovery of the online component of digital projects. Many of the components described here will be generated in the course of the project itself, such as documentation, lists of contributors, etc.
+The steps described below focus on the latter, i.e., on preserving the four essential components of a digital project: its content (data), code, processes, and user experiences [[5](#Refs)]. These steps can also help incorporate data preservation efforts earlier in the data lifecycle.
 
 ## Workflow Diagram
+`r knitr::include_graphics("images/preserveditialproject.png")`
 
-## Detailed Steps
+## Implementation Steps
 
-## References
+### Establish Long-Term Storage
 
+To create an archive, use reliable storage that is designed for long-term preservation. Storage such as Google Drive, Sharepoint, etc. are useful for collaboration and the research phase of a project, but they are not a good solution for long-term storage, particularly, when all storage depends on one owner. To avoid future loss, data needs to be accessible by more than one person, backed up regularly and stored in multiple locations. Institutional repositories are an option for long-term storage.
 
+See also the [Section "Organizing Information.."](#Info-org)
+
+### Create a Data Lifecycle Management Plan
+
+A data management plan works best when it is created at the beginning of the project and then updated regularly. However, it is still useful to think through the management steps during the preservation phase.
+A digital project goes through the steps similar to other research projects, including the stages of planning, data collection, analysis, and dissemination. It also includes specific steps such as content creation, including digitization and transformation of data sources, technical development, including coding, hosting, and maintenance, and outreach, which includes efforts to widen the audiences that know and have access to the project [[1](#Refs)].
+
+Each of these steps includes data that will go into preservation, so the management plan will need to determine which elements, internal and external, need to be preserved. Overall, the plan should cover the following:
+
+  * Types of data and metadata to be preserved
+  * Access, privacy, and security specifications
+  * Cost of curation and preservation
+  * Backup, update, and versioning protocols
+  * Responsible parties
+
+Researchers and scholars may want to reach out to their institutional librarians and archivists to discuss migration and preservation options. The following questions can help in the discussion:
+
+  * How long will the archived data be stored? What maintenance will be required to keep archived data usable over time?
+  * Where will the archived data be hosted?
+  * Who will it be accessible to, and when? Depending on the repository, embargos may be possible if a team decides one is necessary.
+  
+Once the management plan is in place, create a schedule for when it will be updated.
+
+### Map Data and Collaborations
+
+Creating a map of the assets that supported the online publication includes identifying source data, platform-specific data, and server (site) - related data and documenting their types, structure and processes that went into creating and transforming digital assets into their online form (e.g., ingesting, coding, conversions, encoding, etc.).
+
+List each subset of data (original data, platform-specific data, server and database files, dynamic/visual surrogates, and documentation) with their main components. This will provide an overview of the data archive for a project for team members, dataset users, etc. For file longevity, it is best to save this as either a .txt file or a .csv.
+
+If the online component of the project is hosted in a proprietary platform (such as ArcGIS for GIS data), include information on who has access to the account and where credentials are stored. Download all materials possible from the proprietary site and create non-proprietary surrogates that are close to proprietary forms (e.g., still images, screen recordings of the site/resources, data snapshots).
+
+Document all collaborators and contributors and create a short project description, including its purpose, components, funding, etc.
+
+(see also the [Section "Implementing a Charter.."](#Project-charter))
+
+To organize and document **original data sources**, choose formats that are open, widely used, and likely will be sustainable in the long-term. Avoid proprietary and deprecated formats.
+Include and document any code written for data extraction, cleaning, or structuring. If the transformations were performed manually or using point-and-click interfaces (e.g., Excel), document the steps taken during those transformations.
+
+To organize data that were transformed into **platform-specific data** (e.g., site maps, word clouds, animations, dynamic pages, etc.), capture and document  the most important versions. If possible, export them into a static non-proprietary form. Depending on the platform, not everything can be downloaded directly. For example, for GIS projects using ArcGIS, feature layers can be opened in ArcGIS Pro and then saved as part of a project file, but will still be in a proprietary format.
+
+For visualizations or tools, include media showing the appearance of those features in the archival package. This includes videos of any dynamic resources, still photos of maps and other visualizations as image files and/or pdfs.
+
+For custom code built into the site, include files with all custom code for the site in the archival package, including documentation for that code that would allow an individual not associated with the original project to understand the code and be able to utilize it in a new version of the project if migration or disaster recovery becomes necessary.
+
+For server and database files, verify if a database export is available and use site documentation to preserve those. Include server settings and customizations that allowed to create a particular look of the project (e.g., color scheme, layout, font, etc.).
+
+Export and save assets (server files, database contents, code, files, documentation) in a logically structured form.
+
+### Document Content, Code, Processes, and User Experiences
+
+The preservation package should include documentation for all four components of the digital project - its content (data), code, processes, and user experiences. The latter will help to get a sense of how the site works without access to the full working copy. Depending on the resources, this could include recordings of the website or static screen shots. This will aid in recovery and re-implentation.
+
+Create “Read Me” documents that describe all the components and sufficient information for recreating the project [[4](#Refs)]. Include documentation for building the site (including data ingest) and other web resources. Document the rights for different parts of the archived data and ensure there is a clear statement of any rights restrictions at the top level of the overall archive.
+
+Determine what training and education materials should accompany the archive (e.g., a how-to or a tutorial).
+Develop policies and procedures for managing the digital assets, including guidelines for access, storage, backup, migration, and preservation. Set a schedule for backups that matches with the update frequency of the online component (if data is added weekly, run backups at least once a month, if yearly once a year, etc.).
+Establish or finalize agreements that guide publication, migration, and licensing/copyright of web resources. Determine if the project falls within the scope of the institutional digital preservation policy (see [this example from Indiana University](https://libraries.indiana.edu/digital-preservation-policy)).
+
+## Resources and Examples {#Refs}
+
+1.[Ithaka S+R: Life cycle of digital resources.](https://sr.ithaka.org/life-cycle-of-a-digital-resource/)
+
+2.[The Endings Project: Building sustainable digital humanities projects.](https://endings.uvic.ca/index.html)
+
+3.[Visualizing objects, places, and spaces: A digital project handbook](https://handbook.pubpub.org/) (see also Project Stages https://handbook.pubpub.org/project-stages)
+
+4.Cornell University Research Data Management Service Group. [A guide to writing a “readme” style metadata.](https://data.research.cornell.edu/content/readme)
+
+5.Rockwell, G., Day, S., Yu, J., & Engel, M. (2014). [Burying dead projects: Depositing the globalization compendium.](http://www.digitalhumanities.org/dhq/vol/8/2/000179/000179.html) Digital Humanities Quarterly, 8(2). 

@@ -1,6 +1,6 @@
 # Other Outputs
 
-IHCR Data Primer, Data Curation Network (TBA)
+[Interdisciplinary and Highly Collaborative Research (IHCR) Data Primer, Data Curation Network](https://bit.ly/3PUD9GK)
 
 Introductory Data Management Guide for IHCR (TBA)
 

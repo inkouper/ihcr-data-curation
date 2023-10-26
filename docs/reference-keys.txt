@@ -44,13 +44,10 @@ references
 preserving-data-from-digital-projects-published-online
 introduction-5
 workflow-diagram-4
-detailed-steps-2
-references-1
-other-outputs
 implementation-steps-1
 establish-long-term-storage
 create-a-data-lifecycle-management-plan
 map-data-and-collaborations
 document-content-code-processes-and-user-experiences
-resources-and-examples-2
 Refs
+other-outputs

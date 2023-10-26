@@ -4,7 +4,7 @@
 
 Introductory Data Management Guide for IHCR (TBA)
 
-Publications and Presentations
+Tuna, E., Chapman, K., & Kouper, I. (2022). Data Management Workflows in Interdisciplinary Highly Collaborative Research. PEARC'22 Practice and Experience in Advanced Research Computing, 1–3. doi: 10.1145/3491418.3535183
 
 Other Media Content
 

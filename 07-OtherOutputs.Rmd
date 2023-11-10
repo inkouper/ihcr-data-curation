@@ -2,13 +2,9 @@
 
 [Interdisciplinary and Highly Collaborative Research (IHCR) Data Primer, Data Curation Network](https://bit.ly/3PUD9GK)
 
-Introductory Data Management Guide for IHCR (TBA)
+[Introductory Data Management Guide for IHCR](https://inkouper.github.io/ihcr-datamgmt/)
 
 Kouper, I. (2022). Data curation in interdisciplinary and highly collaborative research. International Journal of Digital Curation, 17(1), Article 1. https://doi.org/10.2218/ijdc.v17i1.835
 
 Tuna, E., Chapman, K., & Kouper, I. (2022). Data Management Workflows in Interdisciplinary Highly Collaborative Research. PEARC'22 Practice and Experience in Advanced Research Computing, 1–3. doi: 10.1145/3491418.3535183
-
-
-
-
 

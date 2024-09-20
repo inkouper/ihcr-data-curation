@@ -4,7 +4,20 @@
 
 [Introductory Data Management Guide for IHCR](https://inkouper.github.io/ihcr-datamgmt/)
 
-Kouper, I. (2022). Data curation in interdisciplinary and highly collaborative research. International Journal of Digital Curation, 17(1), Article 1. https://doi.org/10.2218/ijdc.v17i1.835
+Petters, J., Kouper, I., Lindquist, T., & Gumusel, E. (2023, May 31). Diversity in data: Lessons from interdisciplinary practices. <i>IASSIST Conference 2023</i>. https://zenodo.org/records/8008086
 
-Tuna, E., Chapman, K., & Kouper, I. (2022). Data Management Workflows in Interdisciplinary Highly Collaborative Research. PEARC'22 Practice and Experience in Advanced Research Computing, 1–3. doi: 10.1145/3491418.3535183
+
+Kouper, I. (2022). Data curation in interdisciplinary and highly collaborative research. International Journal of Digital Curation, 17(1), Article 1. [doi: 10.2218/ijdc.v17i1.835](https://doi.org/10.2218/ijdc.v17i1.835)
+
+Tuna, E., Chapman, K., & Kouper, I. (2022). Data Management Workflows in Interdisciplinary Highly Collaborative Research. PEARC'22 Practice and Experience in Advanced Research Computing, 1–3. [doi: 10.1145/3491418.3535183](https://dl.acm.org/doi/10.1145/3491418.3535183)
+
+Johnson, A. (2022). Data curation for interdisciplinary and highly collaborative research.
+2022 Data Curation Network All Hands Meeting [virtual]. June 30, 2022.
+
+Cook, K., & Kouper, I. (2021, April 21). Extending data curation to interdisciplinary and highly collaborative research: Project introduction and preliminary results. <i>Research Data Alliance 17th Plenary Meeting</i>.
+
+Kouper, I., Wang, Y., Clare, C., & Mendez, E. (2021, April 21). Challenges of Curating Data from Interdisciplinary and Collaborative Research: Birds of a Feather Session. <i>Research Data Alliance 17th Plenary Meeting</i>.
+
+Cook, K., & Kouper, I. (2021). Challenges in Curating Interdisciplinary Data in the Biodiversity Research Community. <i>Biodiversity Information Science and Standards, 5</i>. [doi: 10.3897/biss.5.79084](https://doi.org/10.3897/biss.5.79084)
+
 
